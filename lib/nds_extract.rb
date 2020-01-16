@@ -10,7 +10,6 @@ def gross_for_director(director_data)
      total += d[:movies][index][:worldwide_gross]
      index += 1
   end
-
   total
 end
 # Write a method that, given an NDS creates a new Hash
