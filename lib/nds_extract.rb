@@ -18,6 +18,12 @@ end
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
   result = {}
-  
-  nil
+   names = []
+   i = 0
+
+  while i < nds.length do
+    names << nds[i][:name]
+    i += 1
+  end
+  names
 end
